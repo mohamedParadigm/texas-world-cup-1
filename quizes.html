@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="color-scheme" content="dark" />
+    <title>Texas - World Cup</title>
+    <link rel="icon" href="images/favicon.webp" />
+    <!-- CSS Plugins -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/quizes.css" />
+  </head>
+  <body>
+    <main class="app">
+      <!-- Header -->
+      <header class="header">
+        <div class="container">
+          <a href="index.html" class="brand">
+            <img
+              src="images/game/logo-w.webp"
+              width="80"
+              height="80"
+              alt="logo"
+              class="img-fluid"
+            />
+          </a>
+          <a
+            href="#"
+            role="button"
+            class="btn end-quizes"
+            aria-label="end game"
+            data-toggle="modal"
+            data-target="#endGameModal"
+          >
+            <i class="icon icon-sm">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                xmlns:svgjs="http://svgjs.com/svgjs"
+                version="1.1"
+                x="0"
+                y="0"
+                viewBox="0 0 329.26933 329"
+                style="enable-background: new 0 0 512 512"
+                xml:space="preserve"
+              >
+                <g>
+                  <path
+                    d="m194.800781 164.769531 128.210938-128.214843c8.34375-8.339844 8.34375-21.824219 0-30.164063-8.339844-8.339844-21.824219-8.339844-30.164063 0l-128.214844 128.214844-128.210937-128.214844c-8.34375-8.339844-21.824219-8.339844-30.164063 0-8.34375 8.339844-8.34375 21.824219 0 30.164063l128.210938 128.214843-128.210938 128.214844c-8.34375 8.339844-8.34375 21.824219 0 30.164063 4.15625 4.160156 9.621094 6.25 15.082032 6.25 5.460937 0 10.921875-2.089844 15.082031-6.25l128.210937-128.214844 128.214844 128.214844c4.160156 4.160156 9.621094 6.25 15.082032 6.25 5.460937 0 10.921874-2.089844 15.082031-6.25 8.34375-8.339844 8.34375-21.824219 0-30.164063zm0 0"
+                    fill="currentColor"
+                    data-original="#000000"
+                  />
+                </g>
+              </svg>
+            </i>
+          </a>
+        </div>
+      </header>
+
+      <!-- Content -->
+      <div class="app-content">
+        <div class="bg-stad"></div>
+        <div class="container">
+          <div id="quizesSteps">
+            <h2 class="d-none">1 Slide</h2>
+            <section class="question-wrapper">
+              <h3 class="question">
+                The country with the oldest player to ever play in the World
+                Cup?
+              </h3>
+              <div class="row justify-content-center">
+                <div class="col-12 col-lg-10">
+                  <ul class="possible-answers">
+                    <li data-value="England" class="answer">
+                      <span class="answer-mark">1</span>
+                      <span class="answer-text"
+                        >England</span
+                      >
+                    </li>
+                    <li data-value="Denmark" class="answer">
+                      <span class="answer-mark">2</span>
+                      <span class="answer-text"
+                        >Denmark</span
+                      >
+                    </li>
+                    <li data-value="Egypt" class="answer">
+                      <span class="answer-mark">3</span>
+                      <span class="answer-text"
+                        >Egypt</span
+                      >
+                    </li>
+                    <li data-value="Brazil" class="answer">
+                      <span class="answer-mark">4</span>
+                      <span class="answer-text"
+                        >Brazil</span
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </section>
+            <h2 class="d-none">2 Slide</h2>
+            <section class="question-wrapper">
+              <h3 class="question">
+                Which country won the first ever World Cup in 1930?
+              </h3>
+              <div class="row justify-content-center">
+                <div class="col-12 col-lg-10">
+                  <ul class="possible-answers">
+                    <li data-value="Brazil" class="answer">
+                      <span class="answer-mark">1</span>
+                      <span class="answer-text"
+                        >Brazil</span
+                      >
+                    </li>
+                    <li data-value="Uruguay" class="answer">
+                      <span class="answer-mark">2</span>
+                      <span class="answer-text"
+                        >Uruguay</span
+                      >
+                    </li>
+                    <li data-value="Germany" class="answer">
+                      <span class="answer-mark">3</span>
+                      <span class="answer-text"
+                        >Germany</span
+                      >
+                    </li>
+                    <li data-value="Japan" class="answer">
+                      <span class="answer-mark">4</span>
+                      <span class="answer-text"
+                        >Japan</span
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </section>
+            <h2 class="d-none">3 Slide</h2>
+            <section class="question-wrapper">
+              <h3 class="question">
+                Which country has won the most World Cups?
+              </h3>
+              <div class="row justify-content-center">
+                <div class="col-12 col-lg-10">
+                  <ul class="possible-answers">
+                    <li data-value="Brazil" class="answer">
+                      <span class="answer-mark">1</span>
+                      <span class="answer-text"
+                        >Brazil</span
+                      >
+                    </li>
+                    <li data-value="Argentina" class="answer">
+                      <span class="answer-mark">2</span>
+                      <span class="answer-text"
+                        >Argentina</span
+                      >
+                    </li>
+                    <li data-value="Germany" class="answer">
+                      <span class="answer-mark">3</span>
+                      <span class="answer-text"
+                        >Germany</span
+                      >
+                    </li>
+                    <li data-value="England" class="answer">
+                      <span class="answer-mark">4</span>
+                      <span class="answer-text"
+                        >England</span
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </section>
+            <h2 class="d-none">4 Slide</h2>
+            <section class="question-wrapper">
+              <h3 class="question">
+                Only one country from these haven’t won the World Cup twice?
+              </h3>
+              <div class="row justify-content-center">
+                <div class="col-12 col-lg-10">
+                  <ul class="possible-answers">
+                    <li data-value="Argentina" class="answer">
+                      <span class="answer-mark">1</span>
+                      <span class="answer-text"
+                        >Argentina</span
+                      >
+                    </li>
+                    <li data-value="France" class="answer">
+                      <span class="answer-mark">2</span>
+                      <span class="answer-text"
+                        >France</span
+                      >
+                    </li>
+                    <li data-value="Ghana" class="answer">
+                      <span class="answer-mark">3</span>
+                      <span class="answer-text"
+                        >Ghana</span
+                      >
+                    </li>
+                    <li data-value="Uruguay" class="answer">
+                      <span class="answer-mark">4</span>
+                      <span class="answer-text"
+                        >Uruguay</span
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </section>
+            <h2 class="d-none">5 Slide</h2>
+            <section class="question-wrapper">
+              <h3 class="question">
+                The record number of World Cup goals is 16. Which country was he from?
+              </h3>
+              <div class="row justify-content-center">
+                <div class="col-12 col-lg-10">
+                  <ul class="possible-answers">
+                    <li data-value="Germany" class="answer">
+                      <span class="answer-mark">1</span>
+                      <span class="answer-text"
+                        >Germany</span
+                      >
+                    </li>
+                    <li data-value="Switzerland" class="answer">
+                      <span class="answer-mark">2</span>
+                      <span class="answer-text"
+                        >Switzerland</span
+                      >
+                    </li>
+                    <li data-value="Saudi Arabia" class="answer">
+                      <span class="answer-mark">3</span>
+                      <span class="answer-text"
+                        >Saudi Arabia</span
+                      >
+                    </li>
+                    <li data-value="Portugal" class="answer">
+                      <span class="answer-mark">4</span>
+                      <span class="answer-text"
+                        >Portugal</span
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </section>
+            <h2 class="d-none">6 Slide</h2>
+            <section class="question-wrapper">
+              <h3 class="question">
+                What was the most attended World Cup match in history?
+              </h3>
+              <div class="row justify-content-center">
+                <div class="col-12 col-lg-10">
+                  <ul class="possible-answers">
+                    <li data-value="Netherlands x Spain (2010)" class="answer">
+                      <span class="answer-mark">1</span>
+                      <span class="answer-text"
+                        >Netherlands x Spain (2010)</span
+                      >
+                    </li>
+                    <li data-value="Brazil x Italy (1994)" class="answer">
+                      <span class="answer-mark">2</span>
+                      <span class="answer-text"
+                        >Brazil x Italy (1994)</span
+                      >
+                    </li>
+                    <li data-value="Argentina x Germany (1986)" class="answer">
+                      <span class="answer-mark">3</span>
+                      <span class="answer-text"
+                        >Argentina x Germany (1986)</span
+                      >
+                    </li>
+                    <li data-value="Brazil x Uruguay (1950)" class="answer">
+                      <span class="answer-mark">4</span>
+                      <span class="answer-text"
+                        >Brazil x Uruguay (1950)</span
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </section>
+            <h2 class="d-none">7 Slide</h2>
+            <section class="question-wrapper">
+              <h3 class="question">
+                A galaxy named after a famous football player in 2015?
+              </h3>
+              <div class="row justify-content-center">
+                <div class="col-12 col-lg-10">
+                  <ul class="possible-answers">
+                    <li data-value="Galaxy Libertas Meteor 10" class="answer">
+                      <span class="answer-mark">1</span>
+                      <span class="answer-text"
+                        >Galaxy Libertas Meteor 10</span
+                      >
+                    </li>
+                    <li data-value="Galaxy Cosmos Redshift 7" class="answer">
+                      <span class="answer-mark">2</span>
+                      <span class="answer-text"
+                        >Galaxy Cosmos Redshift 7</span
+                      >
+                    </li>
+                    <li data-value="Galaxy Revati Constellation 3" class="answer">
+                      <span class="answer-mark">3</span>
+                      <span class="answer-text"
+                        >Galaxy Revati Constellation 3</span
+                      >
+                    </li>
+                    <li data-value="Galaxy Adele Dazeem 14" class="answer">
+                      <span class="answer-mark">4</span>
+                      <span class="answer-text"
+                        >Galaxy Adele Dazeem 14</span
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </section>
+            <h2 class="d-none">8 Slide</h2>
+            <section class="question-wrapper">
+              <h3 class="question">
+                When was the offside rule added to the official rule book?
+              </h3>
+              <div class="row justify-content-center">
+                <div class="col-12 col-lg-10">
+                  <ul class="possible-answers">
+                    <li data-value="1863" class="answer">
+                      <span class="answer-mark">1</span>
+                      <span class="answer-text"
+                        >1863</span
+                      >
+                    </li>
+                    <li data-value="1949" class="answer">
+                      <span class="answer-mark">2</span>
+                      <span class="answer-text"
+                        >1949</span
+                      >
+                    </li>
+                    <li data-value="1970" class="answer">
+                      <span class="answer-mark">3</span>
+                      <span class="answer-text"
+                        >1970</span
+                      >
+                    </li>
+                    <li data-value="1981" class="answer">
+                      <span class="answer-mark">4</span>
+                      <span class="answer-text"
+                        >1981</span
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </section>
+            <h2 class="d-none">9 Slide</h2>
+            <section class="question-wrapper">
+              <h3 class="question">
+                What’s the furthest distance for a header goal in World Cup history?
+              </h3>
+              <div class="row justify-content-center">
+                <div class="col-12 col-lg-10">
+                  <ul class="possible-answers">
+                    <li data-value="9.5 meters" class="answer">
+                      <span class="answer-mark">1</span>
+                      <span class="answer-text"
+                        >9.5 meters</span
+                      >
+                    </li>
+                    <li data-value="10.8 meters" class="answer">
+                      <span class="answer-mark">2</span>
+                      <span class="answer-text"
+                        >10.8 meters</span
+                      >
+                    </li>
+                    <li data-value="17.0 meters" class="answer">
+                      <span class="answer-mark">3</span>
+                      <span class="answer-text"
+                        >17.0 meters</span
+                      >
+                    </li>
+                    <li data-value="18.6 meters" class="answer">
+                      <span class="answer-mark">4</span>
+                      <span class="answer-text"
+                        >18.6 meters</span
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </section>
+            <h2 class="d-none">10 Slide</h2>
+            <section class="question-wrapper">
+              <h3 class="question">
+                Youngest player to win the World Cup played for which country?
+              </h3>
+              <div class="row justify-content-center">
+                <div class="col-12 col-lg-10">
+                  <ul class="possible-answers">
+                    <li data-value="Brazil" class="answer">
+                      <span class="answer-mark">1</span>
+                      <span class="answer-text"
+                        >Brazil</span
+                      >
+                    </li>
+                    <li data-value="Argentina" class="answer">
+                      <span class="answer-mark">2</span>
+                      <span class="answer-text"
+                        >Argentina</span
+                      >
+                    </li>
+                    <li data-value="Spain" class="answer">
+                      <span class="answer-mark">3</span>
+                      <span class="answer-text"
+                        >Spain</span
+                      >
+                    </li>
+                    <li data-value="Egypt" class="answer">
+                      <span class="answer-mark">4</span>
+                      <span class="answer-text"
+                        >Egypt</span
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+
+      <!-- Actions -->
+      <div class="quiz-next-action">
+        <div class="custom-progress-bar">
+          <div class="progress-wrapper">
+            <div class="current-progress">
+              <span id="currentProgress"></span>
+            </div>
+            <span class="current-progress-label" id="currentProgressLabel"
+              >0 / 10</span
+            >
+          </div>
+        </div>
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-auto">
+              <div class="timer-wrapper">
+                <div id="countdown"></div>
+                <input
+                  type="hidden"
+                  name="count-down-time"
+                  id="countDownTime"
+                  value="200"
+                />
+              </div>
+            </div>
+            <div class="col">
+              <div class="d-flex justify-content-end">
+                <button
+                  type="button"
+                  class="btn btn-next"
+                  id="nextStep"
+                  disabled
+                >
+                  Next
+                </button>
+                <a
+                  href="game-end.html"
+                  role="button"
+                  class="btn btn-next finish"
+                  id="finishGame"
+                  >Finish</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Timeout Modal -->
+    <div
+      class="modal fade out-of-time-modal"
+      id="timeOutModal"
+      data-backdrop="static"
+      tabindex="-1"
+      aria-labelledby="timeOutModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="modal-image">
+              <img
+                src="images/game/glass-hour.gif"
+                alt="timeout"
+                width="200"
+                height="200"
+              />
+            </div>
+            <h2 class="modal-title">Out of time!</h2>
+            <p class="modal-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+            <div class="row">
+              <div class="col-auto">
+                <a href="index.html" class="btn btn-alt">End Game</a>
+              </div>
+              <div class="col-auto">
+                <a href="game-start.html" class="btn btn-main">play again!</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- End Game Modal -->
+    <div
+      class="modal fade game-end-modal"
+      id="endGameModal"
+      data-backdrop="static"
+      tabindex="-1"
+      aria-labelledby="endGameModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-body">
+            <h2 class="modal-title">Are you sure end the game ?</h2>
+            <div class="row">
+              <div class="col-auto">
+                <a
+                  href="#"
+                  class="btn btn-alt"
+                  data-dismiss="modal"
+                  aria-label="Close"
+                  >Cancel</a
+                >
+              </div>
+              <div class="col-auto">
+                <a href="index.html" class="btn btn-main">Confirm</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Plugin Scripts -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js" defer></script>
+    <script src="js/jquery.steps.js" defer></script>
+    <!-- Page Script -->
+    <script src="js/quizes.js" defer></script>
+  </body>
+</html>
